@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import {Container} from "./styles";
 import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.webp'
 import externalLink from "../../assets/external-link.svg"
@@ -14,27 +14,36 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                   stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MultilingualVQA" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub" />
+                <a href="https://github.com/manideepanasuri/Story-Dumps" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub"/>
+                </a>
+                <a href="https://www.storydumps.xyz" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site"/>
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Multilingual VQA Vision-Language Model</h3>
+              <h3>StoryDumps – AI-Powered Brain-Rot Video Generator</h3>
               <p>
-                Fine-tuned Qwen2.5-VL for visual question answering across 14 languages with optimized preprocessing.
+                StoryDumps is a web app that converts text or Reddit stories into short-form videos with AI-generated
+                voiceovers, subtitles, and dynamic background footage. Built with React and Python, it automates content
+                creation for platforms like YouTube Shorts and Instagram Reels.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Python</li>
-                <li>Qwen2.5-VL</li>
-                <li>Unsloth</li>
+                <li>Django</li>
+                <li>Kokoro-tts</li>
+                <li>React</li>
+                <li>Fast API</li>
+
               </ul>
             </footer>
           </div>
@@ -43,45 +52,63 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                   stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                {/* <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>  */}
-                </div>
+                <a href="https://github.com/manideepanasuri/resume_builder_frontend-" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site"/></a>
+                <a href="https://resume.manideepanasuri.shop" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site"/>
+                </a>
+              </div>
             </header>
             <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
-              <p> Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency. </p>
+              <h3>AI-Powered Resume Builder Web App</h3>
+              <p> A full-stack web application that helps users generate professional LaTeX resumes using AI. Users can
+                customize content, edit LaTeX directly in the browser, and instantly preview or download resumes. Built
+                with React, Django, and PDF rendering tools, with secure user authentication and real-time editing. With
+                chrome Extension </p>
             </div>
-            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
+            <footer>
+              <ul className="tech-list">
+                <li>Python</li>
+                <li>Django</li>
+                <li>Chrome Extension</li>
+                <li>React</li>
+                <li>Gemini API</li>
+              </ul>
+            </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                   stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
+                <a href="https://github.com/manideepanasuri/ai_girlfriend_frontend" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site"/> </a>
+                <a href="https://aigirlfriend.manideepanasuri.shop" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site"/></a>
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
+              <h3>AI Girlfriend – Personalized AI Chat Companion</h3>
               <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
+                An interactive web app where users create and chat with a personalized AI girlfriend or boyfriend. Built with React and Django, it features custom character setup, memory-based chat, and natural conversation flow powered by AI. Includes secure authentication and user preference management.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>Django Channels</li>
+                <li>React</li>
+                <li>Websockets</li>
+                <li>Daisy UI</li>
               </ul>
             </footer>
           </div>
@@ -91,94 +118,73 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>PHP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>MySQL</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <title>Code</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://youtu.be/NOm-3MynPLE" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Real-Time Hand Gesture-Driven 3D Object Manipulation</h3>
-              <p>Developed a real-time hand gesture recognition system for intuitive 3D object manipulation. Leveraged a multimodal approach integrating OpenCV for video processing, MediaPipe for hand detection/landmark extraction, and scikit-learn for machine learning model training. Achieved 95.2% accuracy in hand gesture classification with efficient real-time performance.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                   stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+                <a href="https://github.com/manideepanasuri/t_shirts_e-com_backend"
+                   target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site"/>
                 </a>
-                {/* <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> */}
+                <a href="https://tshirts.manideepanasuri.shop" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site"/>
+                </a>
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
-              <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
-              </p>
+              <h3>TeeStore – Custom T-Shirt E-Commerce Platform</h3>
+              <p>A full-stack e-commerce website for browsing, customizing, and purchasing t-shirts. Built using React for the frontend and Django with PostgreSQL on the backend. Features include user authentication, product search, cart and order management, and Twilio integration for order updates. Deployed on AWS.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>React</li>
+                <li>Tailwind css</li>
+                <li>Postgres Database</li>
+                <li>Twilo Phone-Authentication</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                   stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Code</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://github.com/manideepanasuri/news-addict-react-app"
+                   target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site"/>
+                </a>
+                <a href="https://manideepanasuri.github.io/news-addict-react-app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site"/>
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>NewsAddict – Personalized News Aggregator</h3>
+              <p>A web app that delivers real-time, category-based news from multiple sources using public APIs. Users can filter news by interests, bookmark articles, and browse with a clean, responsive UI. Built with React and integrated with a news API for live updates.</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Node JS</li>
+                <li>React</li>
+                <li>API</li>
+                <li>Express JS</li>
+
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
+
+
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
