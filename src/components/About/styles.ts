@@ -6,6 +6,13 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
+    .tech-list{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-size: 1.4rem;
+        opacity: 0.6;
+    }
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
@@ -95,5 +102,5 @@ export const Container = styled.section`
     
     
   }
-
+      
 `

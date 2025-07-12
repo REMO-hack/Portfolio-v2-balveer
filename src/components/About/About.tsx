@@ -1,8 +1,8 @@
 import { Container } from "./styles";
-import Manideep from "../../assets/myimageshort.png";
+import Balveer from "../../assets/balveer1.jpg";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
-import tailwind from "../../assets/tailwind.svg";
+//import tailwind from "../../assets/tailwind.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -10,7 +10,7 @@ import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import djangoIcon from "../../assets/django.svg";
+import wordpress from "../../assets/wordpress.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -23,12 +23,12 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi, I'm Manideep Anasuri, a third-year undergraduate student pursuing B.Tech in Computer Science at NIT Warangal.
+            Hi, I'm Patel Balveer, a B.Tech Computer Science & Engineering student at CMR Engineering College with a passion for digital marketing, resume building, and programming.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I'm passionate about building scalable web applications, exploring AI-driven solutions, and creating impactful tech projects.
+            I specialize in crafting effective marketing strategies and have hands-on experience with Python, Java, HTML, and CSS. Certified in digital marketing and resume building.
           </p>
         </ScrollAnimation>
         {/*<ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>*/}
@@ -39,9 +39,11 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4>Bachelors in Computer Science</h4>
-            <p>National Institute Of Technology, Warangal, Third-year</p>
-            <p>8.33 CGPA</p>
+            <div style={{ padding: "1rem" }}>
+              <h4>Bachelors in Computer Science</h4>
+              <p>CMR Institute Of Technology, Hyderabad, Third-year</p>
+            </div>
+
           </div>
         </ScrollAnimation>
         {/*<ScrollAnimation animateIn="fadeInLeft" delay={550}>*/}
@@ -88,12 +90,12 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={djangoIcon} alt="Django" />
+              <img src={shopify} alt="Django" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={tailwind} alt="tailwind" />
+              <img src={wordpress} alt="tailwind" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -112,10 +114,11 @@ export function About() {
             </ScrollAnimation>
           </div>
         </div>
+
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={Manideep} alt="Manideep" />
+          <img style={{borderRadius:10}} src={Balveer} alt="Balveer" />
         </ScrollAnimation>
       </div>
     </Container>

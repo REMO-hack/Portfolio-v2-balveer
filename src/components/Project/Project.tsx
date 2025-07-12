@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function Project() {
   return (
     <Container id="project">
-      <h2>My Projects</h2>
+      <h2>Services</h2>
       <div className="projects">
 
         <ScrollAnimation animateIn="flipInX">
@@ -19,33 +19,14 @@ export function Project() {
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
-              <div className="project-links">
-                <a href="https://github.com/manideepanasuri/Story-Dumps" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub"/>
-                </a>
-                <a href="https://www.storydumps.xyz" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site"/>
-                </a>
-              </div>
+
             </header>
             <div className="body">
-              <h3>StoryDumps – AI-Powered Brain-Rot Video Generator</h3>
+              <h3>Digital Marketing & Strategy</h3>
               <p>
-                StoryDumps is a web app that converts text or Reddit stories into short-form videos with AI-generated
-                voiceovers, subtitles, and dynamic background footage. Built with React and Python, it automates content
-                creation for platforms like YouTube Shorts and Instagram Reels.
+                I help individuals and small businesses enhance their online presence through tailored digital marketing strategies, social media optimization, and content planning—ensuring steady growth and client engagement.
               </p>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Python</li>
-                <li>Django</li>
-                <li>Kokoro-tts</li>
-                <li>React</li>
-                <li>Fast API</li>
-
-              </ul>
-            </footer>
           </div>
         </ScrollAnimation>
 
@@ -56,129 +37,14 @@ export function Project() {
                    stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
-              <div className="project-links">
-                <a href="https://github.com/manideepanasuri/resume_builder_frontend-" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site"/></a>
-                <a href="https://resume.manideepanasuri.shop" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site"/>
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>AI-Powered Resume Builder Web App</h3>
-              <p> A full-stack web application that helps users generate professional LaTeX resumes using AI. Users can
-                customize content, edit LaTeX directly in the browser, and instantly preview or download resumes. Built
-                with React, Django, and PDF rendering tools, with secure user authentication and real-time editing. With
-                chrome Extension </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Python</li>
-                <li>Django</li>
-                <li>Chrome Extension</li>
-                <li>React</li>
-                <li>Gemini API</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
-                   stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/manideepanasuri/ai_girlfriend_frontend" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site"/> </a>
-                <a href="https://aigirlfriend.manideepanasuri.shop" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site"/></a>
-              </div>
             </header>
             <div className="body">
-              <h3>AI Girlfriend – Personalized AI Chat Companion</h3>
-              <p>
-                An interactive web app where users create and chat with a personalized AI girlfriend or boyfriend. Built with React and Django, it features custom character setup, memory-based chat, and natural conversation flow powered by AI. Includes secure authentication and user preference management.
+              <h3>Resume Building - Stand Out with a Winning Resume</h3>
+              <p> I design clean, professional resumes that highlight your strengths and achievements—customized to suit your industry and grab the attention of recruiters and hiring managers.
               </p>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Django Channels</li>
-                <li>React</li>
-                <li>Websockets</li>
-                <li>Daisy UI</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
 
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
-                   stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/manideepanasuri/t_shirts_e-com_backend"
-                   target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site"/>
-                </a>
-                <a href="https://tshirts.manideepanasuri.shop" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site"/>
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>TeeStore – Custom T-Shirt E-Commerce Platform</h3>
-              <p>A full-stack e-commerce website for browsing, customizing, and purchasing t-shirts. Built using React for the frontend and Django with PostgreSQL on the backend. Features include user authentication, product search, cart and order management, and Twilio integration for order updates. Deployed on AWS.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Tailwind css</li>
-                <li>Postgres Database</li>
-                <li>Twilo Phone-Authentication</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
-                   stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <title>Code</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/manideepanasuri/news-addict-react-app"
-                   target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site"/>
-                </a>
-                <a href="https://manideepanasuri.github.io/news-addict-react-app/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site"/>
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>NewsAddict – Personalized News Aggregator</h3>
-              <p>A web app that delivers real-time, category-based news from multiple sources using public APIs. Users can filter news by interests, bookmark articles, and browse with a clean, responsive UI. Built with React and integrated with a news API for live updates.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Node JS</li>
-                <li>React</li>
-                <li>API</li>
-                <li>Express JS</li>
-
-              </ul>
-            </footer>
           </div>
         </ScrollAnimation>
 

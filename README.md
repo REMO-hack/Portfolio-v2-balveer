@@ -1,4 +1,4 @@
-# Portfolio of Manideep Anasuri
+# Portfolio of Patel Balveer
 
 This project was created with CRA (Create React App)
 
