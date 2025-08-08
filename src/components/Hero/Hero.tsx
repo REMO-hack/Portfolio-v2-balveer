@@ -18,11 +18,11 @@ export function Hero() {
           <h1>Patel Balveer</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Bachelor’s student in Computer Science at CMR collage</h3>
+          <h3>Software Engineering Fellow | Full-Stack Developer (MERN) | Generative AI & LLMs | DSA & Competitive Programming</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+{/*         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">I help craft marketing strategies, build standout resumes, and explore web technologies.</p>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
