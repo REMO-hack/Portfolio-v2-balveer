@@ -28,7 +28,9 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I specialize in crafting effective marketing strategies and have hands-on experience with Python, Java, HTML, and CSS. Certified in digital marketing and resume building.
+            I’m a Software Engineer and SWE Fellow at ElevateBox, skilled in Full-Stack Web Development (MERN, PostgreSQL), DSA, and Cloud Deployment (AWS).
+
+I’ve solved 400+ DSA problems on LeetCode, HackerRank, and Codeforces, and built AI-powered projects like Campus Food Delivery, Study Group Connector, Digital Marketing Toolkit (Chrome Extension), and Smart Pharmacy Management Platform.
           </p>
         </ScrollAnimation>
         {/*<ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>*/}
@@ -37,13 +39,13 @@ export function About() {
         {/*  </p>*/}
         {/*</ScrollAnimation>*/}
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
-          <div className="education">
+{/*           <div className="education">
             <h3>Education:</h3>
             <div style={{ padding: "1rem" }}>
               <h4>Bachelors in Computer Science</h4>
               <p>CMR Institute Of Technology, Hyderabad, Third-year</p>
             </div>
-
+ */}
           </div>
         </ScrollAnimation>
         {/*<ScrollAnimation animateIn="fadeInLeft" delay={550}>*/}
