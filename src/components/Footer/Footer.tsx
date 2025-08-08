@@ -9,12 +9,12 @@ export function Footer() {
       <a href="/" className="logo">
         <span>@patelbalveer</span>
       </a>
-      <div>
+{/*       <div>
         <p>
           credits Vinayak Singh
           {/* <span>❤️</span> */}
-        </p>
-      </div>
+{/*         </p>
+      </div> */} */}
       <div className="social-media">
         <a
           href="https://www.linkedin.com/in/patel-balveer-90675a2a4/"
